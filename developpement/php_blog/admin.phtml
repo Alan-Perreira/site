@@ -1,0 +1,32 @@
+    <main>
+        <!-- Chargement du template PHTML spécifié par le programme PHP -->
+        <h2><i class="fa fa-cogs"></i> Panneau d'administration</h2>
+
+<nav>
+    <a href="add_post.php">Rédiger un nouvel article</a>
+</nav>
+
+<table>
+    <caption>Liste des articles</caption>
+    <thead>
+        <tr>
+            <th>Titre</th>
+            <th>Article</th>
+            <th>Auteur</th>
+            <th>Catégorie</th>
+            <th></th>
+        </tr>
+        <?php foreach ($adpost as $key => $value): ?>
+          <tr>
+                <td><?= $value['Title']?></td>
+                <td><?= $value['Content']?></td>
+                <td><?= $value['FirstName']?> <?= $value['LastName']?></td>
+                <td><?= $value['Name']?></td>
+                <td><a href="edit.php?id=<?= $value['Id']?>"><i class="fas fa-pen"></i></a></td>
+                <td><a href="delete.php?id=<?= $value['Id']?>"><i class="fas fa-backspace"></i></a></td>
+          </tr>
+        <?php endforeach; ?>
+    </thead>
+    <tbody>
+            </tbody>
+</table>

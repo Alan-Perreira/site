@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>New Skyblog ?! #nonMaisAllo</title>
+
+    <!-- Feuilles de style externes -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans">
+
+    <!-- Feuilles de style de l'application -->
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <!-- En-tête commune de l'application -->
+    <header class="blog-header">
+        <h1><a href="index.php"><i class="fa fa-microphone"></i>New Skyblog ?! #nonMaisAllo</a></h1>
+        <nav>
+          <?php if (array_key_exists('user', $_SESSION) == true) {?>
+            <a href="admin.php"><i class="fa fa-cogs"></i> Administration</a>
+            <a href="logout.php">Déconnexion</a>
+          <?php }else {?>
+          <a href="register.php">Inscrivez-vous</a>
+          <a href="login.php">Connectez-vous</a>
+        <?php } ?>
+        </nav>
+    </header>
+<div class="image">
+  <main>
+    <!-- Chargement du template PHTML spécifié par le programme PHP -->
+    <?php include $template.'.phtml' ?>
+  </main>
+
+  <!-- Pied de page commun de l'application -->
+  <footer class="blog-footer">
+    <small>Le blog des élèves de la 3W Academy</small>
+  </footer>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+  <header>
+    <form action="add.php" method="post">
+      <h1>Gestionnaire de tâches :-)</h1>
+      <div class="bout">
+        <input type="checkbox" name="" value=""> -en retard
+      </div>
+      <div class="bout">
+        <input type="checkbox" name="" value=""> -en retard
+      </div>
+      <div class="bout">
+        <input type="checkbox" name="" value=""> -en retard
+      </div>
+      <div class="bout">
+        <input type="checkbox" name="" value=""> -en retard
+      </div>
+      <div class="bout">
+        <input type="reset" name="supprimer" value="Supprimer">
+      </div>
+    </form>
+</header>
+<main>
+  <form action="add.php" method="post">
+    <legend>informations sur la tâche</legend>
+    <div class="div-titre">
+      <label for="title">Titre</label>
+      <textarea name="titre"
+      id="title"
+      ></textarea>
+    </div>
+    <div class="div-tache">
+      <label for="tache">Tâche</label>
+      <textarea name="tache"></textarea>
+    </div>
+    <div class="bout">
+      <label for="day">Date de fin :</label>
+      <select id="day" name="date">
+      <?php for($day = 1; $day <= 31; $day++): ?>
+      <option value="<?= $day ?>"><?= $day ?></option>
+          <?php endfor ?>
+      </select>
+      <span>/</span>
+      <select name="month">
+        <option value="1">Janvier</option>
+        <option value="2">Février</option>
+        <option value="3">Mars</option>
+        <option value="4">Avril</option>
+        <option value="5">Mai</option>
+        <option value="6">Juin</option>
+        <option value="7">Juillet</option>
+        <option value="8">Août</option>
+        <option value="9">Septembre</option>
+        <option value="10">Octobre</option>
+        <option value="11">Novembre</option>
+        <option value="12">Décembre</option>
+      </select>
+    </div>
+    <div class="bout">
+      <label for="first">Priorité :</label>
+      <input type="radio" name="first" value="basse"> Basse
+      <input type="radio" name="first" value="normale"> Normal
+      <input type="radio" name="first" value="haute"> Haute
+    </div>
+    <input type="submit" name="ajouter" value="Ajouter">
+  </form>
+</main>
+
+
+</body>
+</html>

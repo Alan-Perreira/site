@@ -1,0 +1,268 @@
+/*font-family: 'Open Sans', sans-serif;
+ font-family: 'Slabo 27px', serif; */
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../img/fond.png);
+  /* background-color: red; */
+  margin: 0px;
+  color: #555555;
+  font-family: 'Slabo 27px', serif;
+  line-height: 1.3em;
+  padding-top: 50px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+header {
+  text-align: center;
+  background-color: #24b3b4;
+  border-top: 3px solid #1f898a;
+  border-bottom: 3px solid #1f898a;
+  /* margin-top: 50px; */
+  padding-bottom: 20px;
+}
+.logo{
+  width: 150px;
+  margin-bottom: 10px;
+}
+/* margin-bottom sur le logo remplace cette notation sinon c'est pareil.
+nav {
+  padding-top: 10px;
+
+} */
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3rem;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: rgba(255,255,255,0.2);
+  padding: 10px;
+  /* c'est préférable de mettre les ancrage en display block quand on lui met une background-color */
+  display: inline-block;
+  transition: all 0.3s;
+}
+nav a:hover {
+  background-color: transparent;
+  color: #1f898a;
+}
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+}
+main {
+  min-width: 800px;
+  ;
+}
+.intro {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.site-title {
+  font-size: 2.5em;
+  font-weight: normal;
+}
+
+.item-recipe {
+  width: 50%;
+  float: left;
+
+
+}
+/* cette partie fait la meme fonctions de celle d'en haut celle d'en haut il y a beaucoup moins de code
+.item-recipe {
+  display: inline-block;
+  width: 50%;
+
+}
+.item-recipes{
+  display: inline-block;
+  float: right;
+  width: 50%;
+} */
+/* article {
+  overflow: hidden;
+} */
+
+article img {
+  width: 100px;
+  radius: 100px;
+  float: left;
+  margin: 0px 15px 15px 0px;
+  border-radius: 50px;
+}
+ span {
+   /* color: #6bbbbb; */
+   color: #24b3b4;
+ }
+.recipes-title {
+  font-size: 3.5em;
+  text-align: center;
+  font-weight: normal;
+}
+
+.item-title {
+  font-weight: normal;
+}
+
+/* p {
+  width: 40%;
+} */
+/* .recipes {
+
+  width: 68%;
+  background-color: #b3e2e2;
+  display: inline-block;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.news {
+  display: inline-block;
+  width : 30%;
+  background-color: #24b3b4;
+  border: 3px solid #1f898a;
+  float: right;
+  overflow: hidden;
+} */
+.recipes {
+  width: 68%;
+  margin-right: 2%;
+  background-color: #b3e2e2;
+  display: inline-block;
+  /* overflow: hidden; sert a cacher le reste pour rien ne depasse du block si ya border pour rien dépasse du border donc a ne pas mettre si je veux deplacer une image !!!!!!!!!!!!!!!!!! */
+   overflow: hidden;
+   vertical-align: top;
+}
+
+.news {
+  width: 30%;
+  background-color: #24b3b4;
+  border: 3px solid #1f898a;
+  display: inline-block;
+  vertical-align: top;
+}
+.news-title {
+  font-size: 1.4em;
+}
+.item-recipe {
+  padding-left: 10px;
+}
+aside {
+  padding: 5px;
+
+}
+aside img {
+  /* position: absolute;
+  top: 45%;
+  left: 80%; */
+    width: 100px;
+    float: right;
+    margin-top: -27px;
+    margin-right: -32px;
+    /* pas bonne methode car la place qu'il laisse ne sera jamais comblé!!!
+     position: relative;
+    bottom: 28px;
+    left: 24px; */
+
+}
+
+aside h2 span {
+  color: #b3ecec;
+  font-size: 1.4em;
+}
+.cta {
+  display: inline-block;
+  float: right;
+  background-color: #24b3b4;
+  padding: 8px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+h3 {
+  text-align: center;
+}
+
+ul {
+  margin-left: -25px;
+}
+ul li  {
+  color: #fff;
+  list-style: none;
+
+}
+ul li strong i {
+  color: #b3ecec;
+}
+
+
+a i {
+  color: #fff;
+  /* margin-left: 10px; */
+}
+
+
+i {
+  margin-left: 5px;
+  margin-right: 5px;
+  /* color: #6bbbbb; */
+  color: #24b3b4;
+
+}
+aside h2 {
+  color: #fff;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+nav a {
+  font-family: 'Slabo 27px', serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+
+}
+ footer {
+   margin-top: 50px;
+   text-align: center;
+ }
+@media screen and (max-width: 1024px) {
+  nav a {
+    display: block;
+  }
+  .item-recipe {
+    width: 100%;
+    float: none;
+    margin-bottom: 30px;
+  }
+
+}
+@media screen and (max-width: 767px) {
+
+
+.recipes {
+  width: 100%;
+  display: block;
+
+
+}
+.news {
+  width: 100%;
+  display: block;
+}
+}

@@ -1,0 +1,15 @@
+body{
+  background-image: url("plu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center, bottom;
+}
+h1 {
+  color: yellow;
+  text-align: center;
+}
+
+canvas {
+  background-color: #00eaff75;
+  margin-left: 12%;
+}

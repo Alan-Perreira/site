@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Canvas :)</title>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="canvas.css">
+  </head>
+  <body>
+    <div class="main">
+      <h1><i class="fas fa-pencil-ruler"></i> Dessinatou :) <i class="fas fa-pencil-ruler"></i></h1>
+      <canvas id="moncanevas" width="800" height="600">
+      </canvas>
+
+      <canvas id="slate2" width="300" height="300"></canvas>
+      		<canvas id="color-palette" class="color-palette hide" width="256" height="256"></canvas>
+    </div>
+    <nav class="toolbar">
+    <ul>
+        <li>
+            <label>Outils</label>
+            <button id="tool-clear-canvas" title="Effacer"><i class="fas fa-eraser"></i></button>
+            <button id="tool-color-picker" title="Pipette"><i class="fas fa-eye-dropper"></i></button>
+        </li>
+        <li>
+            <label>Couleur</label>
+            <div class="pen-color black" data-color="black"></div>
+            <div class="pen-color maroon" data-color="#5C2121"></div>
+            <div class="pen-color red" data-color="#B9121B"></div>
+            <div class="pen-color yellow" data-color="#FFBD07"></div>
+            <div class="pen-color green" data-color="#13B813"></div>
+            <div class="pen-color seagreen" data-color="#029E9A"></div>
+            <div class="pen-color blue" data-color="#0378A6"></div>
+        </li>
+        <li>
+           <label>Epaisseur</label>
+           <button class="fin">Fin</button>
+           <button class="normal">Normal</button>
+           <button class="epais">Epais</button>
+        </li>
+    </ul>
+</nav>
+
+    <script src="canvas.js"></script>
+  </body>
+</html>

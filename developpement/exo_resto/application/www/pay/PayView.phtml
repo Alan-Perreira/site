@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+    #envoyer {
+      display: block;
+      margin: auto;
+      margin-top: 20px;
+      background-color: #333899;
+      color: white;
+      padding: 10px;
+      transition: all 300ms;
+    }
+    #envoyer:hover {
+      background-color: #FF6633;
+      box-shadow: 0 0 4px 2px rgba(255, 102, 51, 0.5);
+      color: white;
+    }
+    </style>
+  </head>
+  <body>
+    <h2><strong><?= $_SESSION['user']['FirstName']  ?> <?= $_SESSION['user']['LastName']  ?></strong>, FAUT PAYER MAINTENANT</h2>
+
+    <form action="<?=$requestUrl?>/pay?orderId=<?=$_GET['orderId']?>" method="post" id="payment-form">
+
+      <div class="form-row">
+        <input type="text" class="form-control mb-3 StripeElement StripeElemen--empty" placeHolder="Prénom" name="first_name">
+
+        <input type="text" class="form-control mb-3 StripeElement StripeElemen--empty" placeHolder="Nom" name="last_name">
+
+
+        <div id="card-element" class="form-control ">
+          <!-- A Stripe Element will be inserted here. -->
+        </div>
+
+        <!-- Used to display form errors. -->
+        <div id="card-errors" role="alert"></div>
+      </div>
+
+      <button id="envoyer">Paye je t'ai dis !</button>
+      <a class="button button-cancel" href="<?= $requestUrl ?>/delete?orderId=<?=$_GET['orderId']?>">Annuler</a>
+
+    </form>
+  </div>
+ <script>
+
+   var but = document.getElementById('envoyer');
+
+   but.addEventListener('mouseover', function() {
+     but.textContent = 'tu avais interêt';
+
+   });
+   but.addEventListener('mouseout', function() {
+     but.textContent = "Paye je t'ai dis !";
+   });
+
+ </script>
+ <script src="https://js.stripe.com/v3/"></script>
+
+ <script src="<?=$wwwUrl?>/js/charge.js"></script>
+
+  </body>
+</html>

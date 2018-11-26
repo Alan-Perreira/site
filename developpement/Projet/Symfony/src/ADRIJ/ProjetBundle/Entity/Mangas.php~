@@ -1,0 +1,61 @@
+<?php
+
+namespace ADRIJ\ProjetBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Mangas
+ *
+ * @ORM\Table(name="mangas")
+ * @ORM\Entity
+ */
+class Mangas
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="Id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="name", type="string", length=50, nullable=false)
+     */
+    private $name;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="resume", type="string", length=500, nullable=false)
+     */
+    private $resume;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="date", type="string", length=100, nullable=false)
+     */
+    private $date;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="img", type="string", length=50, nullable=false)
+     */
+    private $img;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="user_id", type="integer", nullable=false)
+     */
+    private $userId;
+
+
+}
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Exo php</title>
+  </head>
+  <body>
+    <h1>Traducteur Anglais - Français</h1>
+
+    <form class="" action="index.php" method="post">
+      <label for="mot">mot :</label>
+      <input id="mot" type="text" placeholder="" name="mot" value=""><br>
+      <label for="direction">Sens de traduction :</label>
+      <select id="direction" class="selected" name="langue">
+        <option value="toEn">Français vers Anglais</option>
+        <option value="toFr">Anglais vers Français</option>
+      </select><br>
+
+      <input type="submit" name="traduire" value="Traduire">
+
+
+    </form>
+    <?php if($trad != null) {?>
+      <p><?=$trad?></p>
+    <?php } ?>
+
+
+  </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>exo php session</title>
+  </head>
+  <body>
+    <h1>Session de connexion</h1>
+    <?php if(array_key_exists('user', $_SESSION) == false) { ?>
+
+    <a href="login.php">login</a>
+    <a href="register.php">Register</a>
+
+    <?php } else { ?>
+
+    <a href="logout.php">logout</a>
+    <a href="info.php">info</a>
+
+
+
+    <?php } ?>
+
+    </form>
+  </body>
+</html>

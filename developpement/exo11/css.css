@@ -1,0 +1,35 @@
+.rectangle {
+  background-color: royalblue;
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.good {
+  background-color: limegreen !important;
+}
+
+.important {
+  background-color: firebrick !important;
+}
+.hide {
+  display: none;
+}
+
+.barre-de-chargement {
+  border: 2px solid yellow;
+  width: 20%;
+  margin-top: 150px;
+  /* background-color: red;
+  background-size: 50% 50%; */
+}
+
+.color {
+  background-color: red;
+  height: 50px;
+  width: 5%;
+}
+p {
+  margin: 0;
+}

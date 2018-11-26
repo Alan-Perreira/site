@@ -1,0 +1,180 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  /* margin: 0px; */
+  line-height: 1.3;
+  background-color: #f2f1f4;
+  font-family: 'Open Sans', sans-serif;
+
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+ }
+
+.header-main {
+  text-align: center;
+  /* background-color: red; */
+
+  background-color: rgba(155,100,50,0.5);
+  z-index: 999;
+}
+
+.logo {
+  width: 200px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: #30a894;
+  font-size: 1rem;
+    transition: all 3000ms;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ li {
+   padding: 15px;
+}
+h1,
+h2 {
+  color: #30a894;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #30a894;
+}
+aside {
+  display: none;
+  background-color: #b1dcb4;
+  padding: 20px;
+  position: relative;
+}
+main {
+  position: relative;
+  z-index: 1;
+}
+
+strong {
+  background-color: yellow;
+  padding: 10px;
+  top: -161px;
+  left: -153px;
+  /*position relative reste dans le flux met bouge par rapport a sa position initial*/
+   position: relative;
+   z-index: 3;
+}
+em {
+  background-color: blue;
+  padding: 10px;
+   top: 0px;
+  left: 0px;
+  /* position absolut sort du flux et ce place par rapport a ces parent si ils en une position si ya pas de postition il va se place en haut a gauche de la page*/
+  position: absolute;
+  z-index: 2;
+}
+q {
+  background-color:  rgba(0,0,0,1);
+  padding: 15px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: 1;
+}
+i {
+  background-color: pink;
+  padding: 10px;
+  bottom: 40px;
+  left: 15px;
+  position: fixed;
+}
+.sub-menu {
+  position: absolute;
+  top: -50%;
+  left: 0;
+  background-color: black;
+  /* display: none; */
+  transition: all 300ms;
+  transform: scaleY(0);
+  transform-origin: top;
+  z-index: 900;
+  opacity: 0.5;
+  z-index: -1;
+}
+.sub-menu li {
+  display: block;
+}
+li:hover .sub-menu {
+  display: block;
+  transform: scaleY(1);
+
+}
+nav li {
+  position: relative;
+}
+
+
+
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.4rem;
+}
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;*/
+
+@media screen and (min-width: 767px)
+{
+  body {
+    padding-top: 300px;
+  }
+  .header-main {
+    text-align: center;
+    /* background-color: red; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(155,100,50,0.5);
+    z-index: 999;
+  }
+  aside {
+    display: block;
+  }
+  li {
+    display:inline-block;
+ }
+
+}
+@media screen and (min-width: 1024px)
+{
+main {
+  font-size: 0px;
+}
+section {
+  display: inline-block;
+  background-color: red;
+    width: 67%;
+    vertical-align: top;
+    font-size: initial;
+    margin-right: 3%;
+}
+aside {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  font-size: initial;
+}
+}

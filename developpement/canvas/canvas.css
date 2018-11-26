@@ -1,0 +1,82 @@
+canvas {
+  border: 1px solid #788dca;
+  /* margin-left: 15%; */
+  background-color: #00ffce85;
+  margin-left: 16%;
+
+}
+.hide {
+  display: none;
+}
+
+body{
+  background-image: url('resp.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+h1 {
+  text-align: center;
+  color: #00ff97c7;
+}
+i {
+  color: #00fff5d1;
+}
+
+div {
+margin-left: 20px;
+}
+.red {
+  background-color: red;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+.yellow {
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  border-radius: 100%;
+}
+.green {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  border-radius: 100%;
+}
+.maroon {
+  width: 50px;
+  height: 50px;
+  background-color: maroon;
+  border-radius: 100%;
+}
+.seagreen {
+  width: 50px;
+  height: 50px;
+  background-color: seagreen;
+  border-radius: 100%;
+}
+.black {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 100%;
+}
+.blue {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  border-radius: 100%;
+}
+
+label {
+  color: green;
+}
+
+li {
+  display: flex;
+  margin: 20px;
+}
+button {
+  margin-left: 10px;
+}

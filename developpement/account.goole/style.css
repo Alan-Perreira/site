@@ -1,0 +1,231 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: roboto, arial, sans-serif;
+}
+
+.principal {
+	width: 450px;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+  padding: 48px 40px 36px;
+}
+
+h2 {
+	margin-top: -15px;
+	font-weight: 100;
+	margin-bottom: 0;
+}
+
+h3 {
+	font-weight: 300;
+  margin-top: 10px;
+  font-size: 16px;
+
+}
+
+#googleImg {
+	width: 150px;
+}
+
+.google-inp {
+	font-size: 16px;
+	width: 100%;
+	margin-top: 60px;
+	border: none;
+	border-bottom: 2px solid #1a73e8;
+	padding-bottom: 3px;
+}
+
+.google-inp:focus {
+     outline:  none;
+}
+
+.forgot, #savoir, .create {
+	display: inline-block;
+    text-decoration: none;
+    color: #1a73e8;
+    font-weight: 550;
+    letter-spacing: .25px;
+    text-align: left;
+    font-size: 13px;
+    margin-top: 14px;
+}
+
+
+a.forgot{
+	display: block;
+}
+
+a.create {
+	    margin-top: 70px;
+    margin-left: -50%;
+    width: 50%;
+}
+
+.slick-slide {
+	position: relative;
+	z-index: 1;
+}
+.slick-next {
+	display: block;
+  margin-left: 340px;
+  margin-top: -25px;
+  background: #1a73e8;
+  color: white;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 9px 13px;
+  position: relative;
+  z-index: 8;
+}
+
+#send {
+	display: block;
+  margin-left: 340px;
+  margin-top: -25px;
+  background: #1a73e8;
+  color: white;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 9px 13px;
+  position: relative;
+  z-index: 8;
+}
+
+.text {
+	text-align: left;
+	color: #5f6368;
+  font-size: 14px;
+  line-height: 0.8;
+  margin-top: 50px;
+}
+
+.user {
+    border-radius: 16px;
+    padding: 6px 7px 6px 5px;
+    border: 1px solid #dadce0;
+    display: inline-block;
+}
+
+.user svg {
+	vertical-align: middle;
+}
+
+.user span {
+	vertical-align: middle;
+}
+
+#forgot2 {
+	margin-top: 70px;
+}
+
+footer {
+	width: 500px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.formfield-select.footer-div {
+	position: relative;
+	width: 140px;
+	display: inline-block;
+}
+
+.confi.footer-div {
+	width: 115px;
+  vertical-align: top;
+  margin-top: 8px;
+
+}
+
+.condition.footer-div {
+  vertical-align: top;
+  margin-top: 8px;
+
+}
+
+.help.footer-div {
+	width: 50px;
+  vertical-align: top;
+  margin-top: 8px;
+  margin-left: 30px;
+}
+
+.footer-div {
+	display: inline-block;
+    font-size: 13px;
+    color: black;
+}
+
+.footer-div a {
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	color: black;
+}
+
+.formfield-select--container {
+	position: relative; 
+	
+	background-color: white;
+
+	margin: 0 0 1.5em 0;
+	
+	overflow: hidden; 
+	/* 
+		Le select natif pourra 
+		dépasser sans être vu 
+	*/
+}
+
+.formfield-select--container select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-color: white;
+	width: 110%; 
+	/* 
+		On est sûr de ne plus voir
+		la flèche native 
+	*/
+	
+	height: auto;
+	border: 0; 
+	margin: 0;
+	padding: .75em;
+	border-radius: 0;
+	
+
+	overflow: hidden;
+	text-overflow: ellipsis;
+	/* 
+		On empêche le texte d'aller
+		jusqu'au bout s'il est trop long
+	*/
+}
+
+
+.formfield-select--container select:focus {
+     outline:  none;
+}
+
+.formfield-select--container::after { 
+	/* Le pointeur du select */
+	content: '';
+	position: absolute;
+	top: 50%; 
+	margin-top: -3px;
+	right: .75em;  
+	display: block; 
+	width: 0; height: 0;
+	border-color: transparent;
+	border-top-color: #444; 
+	border-width: 6px;
+	border-style: solid;
+	pointer-events: none;
+	font-size: 12px;
+}

@@ -1,0 +1,9 @@
+
+<h2><i class="fa fa-home"></i> Accueil</h2>
+
+<!-- Liste des articles du blog -->
+<ul class="post-list">
+  <?php foreach ($poste as $key => $value): ?>
+    <li><h2><a href="show_post.php?id=<?= $value['Id']?>"><?= $value['Title']?></h2></a><p><?= $value['Content']?></p> Rédiger par <?= $value['FirstName']?> <?= $value['LastName']?> le <?= $value['CreationTimesTamp']?></li>
+  <?php endforeach; ?>
+</ul>

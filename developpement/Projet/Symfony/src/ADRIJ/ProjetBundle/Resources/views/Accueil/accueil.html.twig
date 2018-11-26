@@ -1,0 +1,37 @@
+{% extends "ADRIJProjetBundle::layout.html.twig" %}
+
+{% block title %}
+  Accueil - {{ parent() }}
+{% endblock %}
+
+{% block page_title %}
+  	<h1>gjdrjrhj</h1>
+{% endblock %}
+
+{% block body %}
+
+<div class="main">
+  <h2>Bienvenu !</h2>
+  <div class="nav-button">
+    <a href="#"> <button class="button button-primary" type="button">Connextion</button> </a>
+
+    <a href="{{path('adrij_projet_register')}}"><button class="rigth button button-primary" type="button">Inscription</button></a>
+  </div>
+  <p>liste de mangas les plus discuté</p>
+  <ul class="liste">
+    <li><img src="{{asset("image/onepiece.jpg")}}" alt=""> <p class="mangasNom">One Piece</p> </li>
+    <li class="title-resume">synopsis :</li>
+    <li class="resume">Gold Roger est le seigneur des pirates. À sa mort, une grande vague de piraterie s'abat sur le monde. Ces pirates partent à la recherche du One Piece, le fabuleux trésor amassé par Gold Roger durant tout sa vie.
+Notre histoire commence dans un petit village dans lequel une bande de pirates réside depuis un an. Monkey D. Luffy, notre héros, est un petit garçon qui rêve de devenir pirate et demande inlassablement à Shanks le Roux, le chef des pirates, de le prendre dans son équipage. Celui-ci refuse évidemment à chaque fois en le tournant en ridicule.
+Un jour, Luffy mange par erreur le trésor des pirates qui n'est autre que l'un des fruits du démon, qui ont la réputation de donner des pouvoirs spéciaux. C'est ainsi que Luffy devient un homme élastique. Toutefois, le mangeur d'un fruit du démon se retrouve dans l'incapacité de nager...
+Dix ans plus tard, nous retrouvons Luffy qui décide de prendre la mer à la recherche d'un équipage à lui et avec pour objectif de devenir le seigneur des pirates !</li>
+<li class="title-resume">Date de sorti :</li>
+<li class="resume">One Piece est un manga créé par Eiichirō Oda en 1997</li>
+  </ul>
+
+<a href="#"><button class="rigth button button-primary" type="button" name="button">Avis</button></a>
+
+</div>
+
+
+{% endblock %}

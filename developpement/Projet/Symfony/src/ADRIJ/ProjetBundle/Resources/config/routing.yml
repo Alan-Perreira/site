@@ -1,0 +1,17 @@
+adrij_projet_homepage:
+    path:     /
+    defaults: { _controller: ADRIJProjetBundle:Default:index }
+
+adrij_projet_accueil:
+    path:     /accueil
+    defaults: { _controller: ADRIJProjetBundle:Accueil:accueil }
+
+
+adrij_projet_admin:
+    path:     /admin
+    defaults: { _controller: ADRIJProjetBundle:Admin:admin }
+
+
+adrij_projet_register:
+    path:     /register
+    defaults: { _controller: ADRIJProjetBundle:Register:register }

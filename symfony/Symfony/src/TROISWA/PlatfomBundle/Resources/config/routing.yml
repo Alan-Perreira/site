@@ -1,0 +1,45 @@
+troiswa_platfom_homepage:
+    path:     /coucou
+    defaults: { _controller: TROISWAPlatfomBundle:Default:index }
+
+troiswa_platfom_hello:
+    path:     /hello
+    defaults: { _controller: TROISWAPlatfomBundle:Default:hello }
+
+troiswa_platfom_page2:
+    path:     /page2
+    defaults: { _controller: TROISWAPlatfomBundle:Default:page2 }
+
+troiswa_platfom_test:
+    path:     /test/{param}
+    defaults: { _controller: TROISWAPlatfomBundle:Default:test }
+    requirements:
+        param: \d+
+
+troiswa_platfom_advert:
+    path:     /{id}/{name}
+    defaults: { _controller: TROISWAPlatfomBundle:Advert:index }
+    requirements:
+        id: \d{1}
+
+troiswa_platfom_home:
+    path:     /home/{id}
+    defaults: { _controller: TROISWAPlatfomBundle:Home:home }
+    requirements:
+        id: \d{1}
+
+troiswa_platfom_add:
+    path:     /add
+    defaults: { _controller: TROISWAPlatfomBundle:Add:add }
+
+troiswa_platfom_delete:
+    path:     /delete/{id}
+    defaults: { _controller: TROISWAPlatfomBundle:Delete:delete}
+    requirements:
+        id: \d{2}
+
+troiswa_platfom_edit:
+    path:     /edit/{id}
+    defaults: { _controller: TROISWAPlatfomBundle:Edit:edit }
+    requirements:
+        id: \d{2}

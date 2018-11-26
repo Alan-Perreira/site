@@ -1,0 +1,48 @@
+<h2><i class="fa fa-file-text-o"></i> Article</h2>
+
+<!-- Article du blog -->
+<section class="post">
+
+    <h3><?= $poster['Title']?></h3>
+    <article><?= $poster['Content']?></article>
+    <small>
+      Rédigé par <?= $poster['FirstName']?> <?= $poster['LastName']?>   le   <?= $poster['CreationTimesTamp']?>  </small>
+
+
+</section>
+
+<hr>
+
+<!-- Liste des commentaires de l'article du blog -->
+<ul class="comment-list">
+  <?php foreach ($com as $key => $value): ?>
+    <li><h4><?=$value['NickName']?></h4> <p><?=$value['Contents']?></p></li>
+  <?php endforeach; ?>
+    </ul>
+
+<hr>
+
+<!-- Formulaire de saisie d'un nouveau commentaire pour cet article -->
+<form class="generic-form" action="show_post.php?id=<?= $poster['Id']?>" method="POST">
+
+    <!-- Utilisation d'un champ caché pour spécifier à quel article rattacher le commentaire -->
+    <input type="hidden" name="postId" value="1">
+
+    <fieldset>
+        <legend><i class="fa fa-comment-o"></i> Nouveau commentaire</legend>
+        <ul>
+            <li>
+                <label for="nickName">Pseudo :</label>
+                <input type="text" id="nickName" name="nickName">
+            </li>
+            <li>
+                <label class="textarea" for="contents">Commentaire :</label>
+                <textarea id="contents" name="contents" rows="5"></textarea>
+            </li>
+            <li>
+                <button class="button button-primary" type="submit">Ajouter</button>
+                <a class="button button-cancel" href="index.php">Annuler</a>
+            </li>
+        </ul>
+    </fieldset>
+</form>

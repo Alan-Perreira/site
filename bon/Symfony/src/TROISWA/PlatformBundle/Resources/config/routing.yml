@@ -1,0 +1,7 @@
+troiswa_platform_homepage:
+    path:     /
+    defaults: { _controller: TROISWAPlatformBundle:Default:index }
+
+troiswa_platform_home:
+    path:     /home
+    defaults: { _controller: TROISWAPlatformBundle:Home:home }

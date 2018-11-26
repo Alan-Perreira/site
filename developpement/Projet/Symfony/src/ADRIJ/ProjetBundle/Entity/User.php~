@@ -1,0 +1,54 @@
+<?php
+
+namespace ADRIJ\ProjetBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * User
+ *
+ * @ORM\Table(name="user")
+ * @ORM\Entity
+ */
+class User
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="Id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="FirstName", type="string", length=40, nullable=false)
+     */
+    private $firstname;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="LastName", type="string", length=40, nullable=false)
+     */
+    private $lastname;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="Mail", type="string", length=40, nullable=false)
+     */
+    private $mail;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="Password", type="string", length=140, nullable=false)
+     */
+    private $password;
+
+
+}
+

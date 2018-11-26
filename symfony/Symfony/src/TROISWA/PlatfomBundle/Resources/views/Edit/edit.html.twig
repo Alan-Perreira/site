@@ -1,0 +1,23 @@
+{% extends "TROISWAPlatfomBundle::layout.html.twig" %}
+
+{% block title %}
+  Accueil - {{ parent() }}
+{% endblock %}
+
+{% block page_title %}
+<h1>Edit</h1>
+{% endblock %}
+
+{% block troiswaplatfom_body %}
+
+<h1>Modifier une annonce</h1>
+
+<p>!!!!!!! ICI on met un form !!!!!</p>
+
+<p>Vous éditez une annonce déjà existante, merci de ne pas changer l'esprit général de l'annonce déjà publiée.</p>
+
+<a href="{{ path('troiswa_platfom_advert', {'id': 0, name: 'Alan'}) }}"><button type="button" name="button">Retour à l'annonce</button></a>
+
+
+
+{% endblock %}

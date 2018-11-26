@@ -1,0 +1,989 @@
+# Translation of Themes - Quark in French (France)
+# This file is distributed under the same license as the Themes - Quark package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-10-09 06:19:44+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Themes - Quark\n"
+
+#. Description of the plugin/theme
+msgid "Quark is your basic building block for creating beautiful, responsive custom themes. It's not a convoluted or confusing framework that's hard to learn or even harder to modify. It's a simple and elegant starter theme built on HTML5 & CSS3. Its base is a responsive, 12 column grid. It incorporates custom theme options that are easy to modify, a set of common templates, support for WordPress Post Formats and the gorgeous, retina friendly Font Awesome icon font. Quark is WooCommerce compatible, Multilingual Ready (WPML) and translated into Spanish, German and French. Quark is also compatible with popular page builders such as Elementor, Divi Builder, Beaver Builder, the SiteOrigin Page Builder and Visual Composer."
+msgstr ""
+"Quark est votre starter thème pour créer votre propre thème responsive. Il est différent d’un framework difficile à maîtriser et souvent difficile à modifier. C’est un thème construit sur HTML5 et CSS3.\n"
+"Il est par défaut responsive et construit sur une grille de 12 colonnes. Il embarque des options de personnalisation de thème facile à modifier ainsi qu’un set de modèle de pages pré-concues. Il supporte les formats d’article ainsi que les polices retina Font Awesome. Quark est prêt pour fonctionner avec WooCommerce, avec WPML et traduit en espagnol, allemand et français. Quark est également compatible avec les constructeurs de page le plus populaire commme Vusual Composer, Beaver Builder, Divi Builder ou Site origin Page Builder."
+
+#. Theme Name of the plugin/theme
+msgid "Quark"
+msgstr "Quark"
+
+#. Template Name of the plugin/theme
+msgid "Page Builder Blank Template"
+msgstr "Modèle vierge pour le constructeur de page"
+
+#: options.php:232
+msgid "Enter your Snapchat URL."
+msgstr "Saisissez l’URL de votre compte Snapchat."
+
+#: options.php:231
+msgid "Snapchat"
+msgstr "Snapchat"
+
+#: options.php:225
+msgid "Enter your Vine URL."
+msgstr "Saisissez votre URL Vine."
+
+#: options.php:224
+msgid "Vine"
+msgstr "Vine"
+
+#: options.php:211
+msgid "Enter your Vimeo URL."
+msgstr "Saisissez l’URL de votre compte Vimeo."
+
+#: options.php:210
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: options.php:190
+msgid "Enter your CodePen URL."
+msgstr "Saisissez l’URL de votre compte CodePen."
+
+#: options.php:189
+msgid "CodePen"
+msgstr "CodePen"
+
+#: options.php:183
+msgid "Enter your Stack Overflow URL."
+msgstr "Saisissez l’URL de votre compte Stack Overflow."
+
+#: options.php:182
+msgid "Stack Overflow"
+msgstr "Stack Overflow"
+
+#: options.php:162
+msgid "Enter your Twitch URL."
+msgstr "Saisissez l’URL de votre compte Twitch."
+
+#: options.php:161
+msgid "Twitch"
+msgstr "Twitch"
+
+#: options.php:155
+msgid "Enter your Reddit URL."
+msgstr "Saisissez l’URL de votre compte Reddit."
+
+#: options.php:154
+msgid "Reddit"
+msgstr "Reddit"
+
+#: options.php:134
+msgid "Enter your Slack URL."
+msgstr "Saisissez l’URL de votre profil Slack."
+
+#: options.php:133
+msgid "Slack"
+msgstr "Slack"
+
+#: functions.php:871
+msgid "Add me on Snapchat"
+msgstr "Suivez-moi sur Snapchat."
+
+#: functions.php:870
+msgid "Follow me on Vine"
+msgstr "Suivez-moi sur Vine."
+
+#: functions.php:868
+msgid "Follow me on Vimeo"
+msgstr "Suivez-moi sur Vimeo."
+
+#: functions.php:865
+msgid "Follow me on CodePen"
+msgstr "Suivez-moi sur CodePen."
+
+#: functions.php:864
+msgid "Join me on Stack Overflow"
+msgstr "Rejoignez-moi sur Stack Overflow."
+
+#: functions.php:861
+msgid "Follow me on Twitch"
+msgstr "Suivez-moi sur Twitch."
+
+#: functions.php:860
+msgid "Join me on Reddit"
+msgstr "Suivez moi sur Reddit"
+
+#: functions.php:857
+msgid "Join me on Slack"
+msgstr "Rejoignez moi sur Slack."
+
+#. Translators: 1 is tag
+#: functions.php:733
+msgid "<i class=\"fa fa-tag\" aria-hidden=\"true\"></i> %1$s"
+msgstr "<i class=\"fa fa-tag\" aria-hidden=\"true\"></i> %1$s"
+
+#: functions.php:500
+msgid "Next <i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i>"
+msgstr "Suivant <i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i>"
+
+#: functions.php:498
+msgid "<i class=\"fa fa-angle-left\" aria-hidden=\"true\"></i> Previous"
+msgstr "<i class=\"fa fa-angle-left\" aria-hidden=\"true\"></i> Précédent"
+
+#: functions.php:487
+msgctxt "Next post link"
+msgid "<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i>"
+msgstr "<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i>"
+
+#: functions.php:486
+msgctxt "Previous post link"
+msgid "<i class=\"fa fa-angle-left\" aria-hidden=\"true\"></i>"
+msgstr "<i class=\"fa fa-angle-left\" aria-hidden=\"true\"></i>"
+
+#. Template Name of the plugin/theme
+msgid "Page Builder Full-Width Template"
+msgstr "Modèle pleine largeur du constructeur de page"
+
+#. Template Name of the plugin/theme
+msgid "Page Builder Boxed Template"
+msgstr "Modèle de page «encadré» pour constructeurs de page"
+
+#. Translators: 1: Permalink 2: Title 3: No. of Comments
+#: functions.php:697
+msgid "Comment on "
+msgstr "Commentaire sur"
+
+#. Template Name of the plugin/theme
+msgid "Posts Archive Template"
+msgstr "Modèle d’archives"
+
+#. Template Name of the plugin/theme
+msgid "Left Sidebar Page Template"
+msgstr "Modèle de page avec la barre latérale à gauche"
+
+#. Template Name of the plugin/theme
+msgid "Full-width Page Template"
+msgstr "Modèle de page pleine largeur"
+
+#. Template Name of the plugin/theme
+msgid "Front Page Template"
+msgstr "Modèle de Page d&rsquo;Accueil"
+
+#: tag.php:18
+msgid "Tag Archives: %s"
+msgstr "Archives pour l'étiquette %s"
+
+#: search.php:19
+msgid "Search Results for: %s"
+msgstr "Résultats de recherche pour&nbsp;: %s"
+
+#: options.php:327
+msgid "Select the number of products to display on the shop page."
+msgstr "Sélectionner le nombre de produits que vous voulez afficher sur la page boutique."
+
+#: options.php:326
+msgid "Shop Products"
+msgstr "Produits de la boutique"
+
+#: options.php:319
+msgid "Display the breadcrumbs on the WooCommerce pages"
+msgstr "Afficher le fil d’Ariane sur les pages WooCommerce"
+
+#: options.php:318
+msgid "Shop Breadcrumbs"
+msgstr "Fil d’ariane de la boutique"
+
+#: options.php:314
+msgid "The &lsquo;Cart&rsquo;, &lsquo;Checkout&rsquo; and &lsquo;My Account&rsquo; pages are displayed using shortcodes. To remove the sidebar from these Pages, simply edit each Page and change the Template (in the Page Attributes Panel) to the &lsquo;Full-width Page Template&rsquo;."
+msgstr "Les pages panier, commandes et mon compte sont affichées en utilisant des codes courts. Pour enlever la colonne latérale sur ces pages, allez simplement modifier l’une de ces pages et choisissez le modèle de page «pleine largeur» (dans le panneau d’attributs de page). "
+
+#: options.php:313
+msgid "Cart, Checkout & My Account sidebars"
+msgstr "Colonne latérale de la page panier, de la page commande et de la page mon compte."
+
+#: options.php:307
+msgid "Display the sidebar on the WooCommerce Single Product page"
+msgstr "Affiche la colonne latérale sur la page d’un produit WooCommerce."
+
+#: options.php:306
+msgid "Products sidebar"
+msgstr "Colonne latérale des produits"
+
+#: options.php:300
+msgid "Display the sidebar on the WooCommerce Shop page"
+msgstr "Afficher la colonne latérale sur la page boutique de WooCommerce."
+
+#: options.php:299
+msgid "Shop sidebar"
+msgstr "Colonne latérale de la boutique"
+
+#: options.php:295
+msgid "WooCommerce settings"
+msgstr "Réglages WooCommerce"
+
+#: options.php:286
+msgid "Select what position you would like the footer content aligned to."
+msgstr "Sélectionnez la position du contenu du pied de page."
+
+#: options.php:285
+msgid "Footer Content Position"
+msgstr "Position du contenu du pied de page"
+
+#: options.php:278
+msgid "Enter the text you&lsquo;d like to display in the footer. This content will be displayed just below the footer widgets. It&lsquo;s ideal for displaying your copyright message or credits."
+msgstr "Entrez le texte que vous souhaitez afficher dans le pied de page. Ce contenu sera affiché juste en-dessous des widgets du bas de page. L'idéal est d'y placer votre message sur la gestion de vos droits d'auteur, vos crédits..."
+
+#: options.php:277
+msgid "Footer Content"
+msgstr "Contenu du pied de page"
+
+#: options.php:271
+msgid "Select the background color for the footer."
+msgstr "Sélectionnez la couleur de fond pour le pied de page."
+
+#: options.php:270
+msgid "Footer Background Color"
+msgstr "Couleur d'arrière-plan de pied de page"
+
+#: options.php:264
+msgid "Select an image and background color for the homepage banner."
+msgstr "Sélectionnez une image et une couleur de fond pour la bannière de la page d'accueil."
+
+#: options.php:263
+msgid "Banner Background"
+msgstr "Arrière plan de bannière"
+
+#: options.php:259
+msgid "Advanced settings"
+msgstr "Options avancées"
+
+#: options.php:253
+msgid "Enter your RSS Feed URL."
+msgstr "Entrez l'URL de votre flux RSS."
+
+#: options.php:252
+msgid "RSS"
+msgstr "RSS"
+
+#: options.php:246
+msgid "Enter your Pinterest URL."
+msgstr "Entrez votre URL pour Pinterest."
+
+#: options.php:245
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: options.php:239
+msgid "Enter your Flickr URL."
+msgstr "Entrez votre URL pour Flickr."
+
+#: options.php:238
+msgid "Flickr"
+msgstr "Flickr"
+
+#: options.php:218
+msgid "Enter your Instagram URL."
+msgstr "Entrez votre URL pour Instagram."
+
+#: options.php:217
+msgid "Instagram"
+msgstr "Instagram"
+
+#: options.php:204
+msgid "Enter your YouTube URL."
+msgstr "Entrez votre URL pour YouTube."
+
+#: options.php:203
+msgid "YouTube"
+msgstr "YouTube"
+
+#: options.php:197
+msgid "Enter your Foursquare URL."
+msgstr "Entrez votre URL pour Foursquare."
+
+#: options.php:196
+msgid "Foursquare"
+msgstr "Foursquare "
+
+#: options.php:176
+msgid "Enter your Bitbucket URL."
+msgstr "Entrez votre URL pour Bitbucket."
+
+#: options.php:175
+msgid "Bitbucket"
+msgstr "Bitbucket"
+
+#: options.php:169
+msgid "Enter your GitHub URL."
+msgstr "Entrez votre URL pour GitHub."
+
+#: options.php:168
+msgid "GitHub"
+msgstr "GitHub"
+
+#: options.php:148
+msgid "Enter your Tumblr URL."
+msgstr "Entrez votre URL pour Tumblr."
+
+#: options.php:147
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: options.php:141
+msgid "Enter your Dribbble URL."
+msgstr "Entrez votre URL pour Dribbble."
+
+#: options.php:140
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: options.php:127
+msgid "Enter your SlideShare URL."
+msgstr "Entrez votre URL pour SlideShare."
+
+#: options.php:126
+msgid "SlideShare"
+msgstr "Slideshare"
+
+#: options.php:120
+msgid "Enter your LinkedIn URL."
+msgstr "Entrez votre URL pour LinkedIn."
+
+#: options.php:119
+msgid "LinkedIn"
+msgstr "Linkedin"
+
+#: options.php:113
+msgid "Enter your Google+ URL."
+msgstr "Entrez votre URL pour Google+."
+
+#: options.php:112
+msgid "Google+"
+msgstr "Google+"
+
+#: options.php:106
+msgid "Enter your Facebook URL."
+msgstr "Entrez votre URL pour Facebook."
+
+#: options.php:105
+msgid "Facebook"
+msgstr "Facebook"
+
+#: options.php:99
+msgid "Enter your Twitter URL."
+msgstr "Entrez votre URL pour Twitter."
+
+#: options.php:98
+msgid "Twitter"
+msgstr "Twitter"
+
+#: options.php:92
+msgid "Open the social media links in a new browser tab/window"
+msgstr "Ouvrir les liens des médias sociaux dans un nouvel onglet ou une nouvelle fenêtre du navigateur"
+
+#: options.php:91
+msgid "Open links in new Window/Tab"
+msgstr "Ouvrir les liens dans une nouvelle fenêtre / un nouvel onglet"
+
+#: options.php:87
+msgid "Enter the URLs for your Social Media platforms. You can also optionally specify whether you want these links opened in a new browser tab/window."
+msgstr "Entrez les URLs de vos plateformes de médias sociaux. Vous pouvez aussi éventuellement choisir si vous voulez que ces liens s'ouvrent dans un nouvel onglet/fenêtre de votre navigateur, ou pas."
+
+#: options.php:86
+msgid "Social Media Settings"
+msgstr "Réseaux sociaux"
+
+#: options.php:78
+msgid "If you&rsquo;d like to replace or remove the default logo, use the <a href=\"%1$s\" title=\"Custom header\">Appearance &gt; Header</a> menu option."
+msgstr "Si vous souhaitez remplacer ou supprimer le logo par défaut, utilisez l'option Apparence &gt; <a href=\"%1$s\" title=\"Custom header\">En-tête</a> du menu."
+
+#: options.php:77
+msgid "Logo"
+msgstr "Logo"
+
+#: options.php:69
+msgid "If you&rsquo;d like to replace or remove the default background image, use the <a href=\"%1$s\" title=\"Custom background\">Appearance &gt; Background</a> menu option."
+msgstr "Si vous souhaitez remplacer ou supprimer l'image de fond par défaut, utilisez l'option Apparence &gt; <a href=\"%1$s\" title=\"Custom background\">Arrière-plan</a> du menu."
+
+#: options.php:68
+msgid "Background"
+msgstr "Arrière-plan"
+
+#: options.php:64
+msgid "Basic Settings"
+msgstr "Réglages de base"
+
+#: options.php:58
+msgid "28 Products"
+msgstr "28 produits"
+
+#: options.php:57
+msgid "24 Products"
+msgstr "24 produits"
+
+#: options.php:56
+msgid "20 Products"
+msgstr "20 produits"
+
+#: options.php:55
+msgid "16 Products"
+msgstr "16 produits"
+
+#: options.php:54
+msgid "12 Products"
+msgstr "12 produits"
+
+#: options.php:53
+msgid "8 Products"
+msgstr "8 produits"
+
+#: options.php:52
+msgid "4 Products"
+msgstr "4 produits"
+
+#: options.php:47
+msgid "Right aligned"
+msgstr "Aligner à droite"
+
+#: options.php:46
+msgid "Center aligned"
+msgstr "Centrer"
+
+#: options.php:45
+msgid "Left aligned"
+msgstr "Aligner à gauche"
+
+#: no-results.php:27
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Désolé, mais rien ne correspond à votre recherche. Veuillez réessayer avec des mots différents."
+
+#: no-results.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Prêt(e) à publier votre premier article? <a href=\"%1$s\">Lancez-vous ici</a>."
+
+#: no-results.php:14
+msgid "Nothing Found"
+msgstr "Aucun Résultat"
+
+#: inc/includes/class-options-sanitization.php:427
+msgid "Bold Italic"
+msgstr "Italique gras"
+
+#: inc/includes/class-options-sanitization.php:426
+msgid "Bold"
+msgstr "Gras"
+
+#: inc/includes/class-options-sanitization.php:425
+msgid "Italic"
+msgstr "Italique"
+
+#: inc/includes/class-options-sanitization.php:424
+msgid "Normal"
+msgstr "Normal"
+
+#: inc/includes/class-options-sanitization.php:352
+msgid "Fixed in Place"
+msgstr "Fixe"
+
+#: inc/includes/class-options-sanitization.php:351
+msgid "Scroll Normally"
+msgstr "Défilement normal"
+
+#: inc/includes/class-options-sanitization.php:339
+msgid "Bottom Right"
+msgstr "Bas droite"
+
+#: inc/includes/class-options-sanitization.php:338
+msgid "Bottom Center"
+msgstr "En bas au centre"
+
+#: inc/includes/class-options-sanitization.php:337
+msgid "Bottom Left"
+msgstr "Bas gauche"
+
+#: inc/includes/class-options-sanitization.php:336
+msgid "Middle Right"
+msgstr "Au milieu à droite"
+
+#: inc/includes/class-options-sanitization.php:335
+msgid "Middle Center"
+msgstr "Au milieu à centre"
+
+#: inc/includes/class-options-sanitization.php:334
+msgid "Middle Left"
+msgstr "Au milieu à gauche"
+
+#: inc/includes/class-options-sanitization.php:333
+msgid "Top Right"
+msgstr "En haut à droite"
+
+#: inc/includes/class-options-sanitization.php:332
+msgid "Top Center"
+msgstr "En haut au centre"
+
+#: inc/includes/class-options-sanitization.php:331
+msgid "Top Left"
+msgstr "Haut gauche"
+
+#: inc/includes/class-options-sanitization.php:319
+msgid "Repeat All"
+msgstr "Répéter dans toutes les directions"
+
+#: inc/includes/class-options-sanitization.php:318
+msgid "Repeat Vertically"
+msgstr "Répéter verticalement"
+
+#: inc/includes/class-options-sanitization.php:317
+msgid "Repeat Horizontally"
+msgstr "Répéter horizontalement"
+
+#: inc/includes/class-options-sanitization.php:316
+msgid "No Repeat"
+msgstr "Pas de répétition"
+
+#: inc/includes/class-options-media-uploader.php:94
+msgid "View File"
+msgstr "Voir le fichier"
+
+#: inc/includes/class-options-media-uploader.php:70
+msgid "Upgrade your version of WordPress for full media support."
+msgstr "Upgrade your version of WordPress for full media support."
+
+#: inc/includes/class-options-media-uploader.php:67
+#: inc/includes/class-options-media-uploader.php:119
+msgid "Remove"
+msgstr "Retirer"
+
+#: inc/includes/class-options-media-uploader.php:65
+#: inc/includes/class-options-media-uploader.php:118
+msgid "Upload"
+msgstr "Télécharger"
+
+#: inc/includes/class-options-media-uploader.php:62
+msgid "No file chosen"
+msgstr "Aucun fichier choisi"
+
+#: inc/includes/class-options-framework-admin.php:289
+msgid "Options saved."
+msgstr "Options enregistrées."
+
+#: inc/includes/class-options-framework-admin.php:235
+msgid "Default options restored."
+msgstr "Les paramètres par défaut ont été restaurés."
+
+#: inc/includes/class-options-framework-admin.php:204
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr "Cliquez OK pour restaurer les paramètres par défaut. Tous les paramètres personnalisés seront perdus!"
+
+#: inc/includes/class-options-framework-admin.php:204
+msgid "Restore Defaults"
+msgstr "Restaurer les paramètres par défaut"
+
+#: inc/includes/class-options-framework-admin.php:203
+msgid "Save Options"
+msgstr "Sauvegarder les options"
+
+#: inc/includes/class-options-framework-admin.php:91
+#: inc/includes/class-options-framework-admin.php:92
+msgid "Theme Options"
+msgstr "Options du thème"
+
+#: header.php:67
+msgid "Skip to content"
+msgstr "Aller au contenu principal"
+
+#: header.php:66
+msgid "Menu"
+msgstr "Menu"
+
+#: header.php:41
+msgid "Skip to main content"
+msgstr "Aller au contenu principal"
+
+#: functions.php:912
+msgid "WordPress"
+msgstr "WordPress"
+
+#: functions.php:911
+msgid "Semantic Personal Publishing Platform"
+msgstr "Plate-forme sémantique de publication personnelle"
+
+#: functions.php:910
+msgid "http://wordpress.org/"
+msgstr "http://www.wordpress-fr.net/"
+
+#: functions.php:909
+msgid "Proudly powered by"
+msgstr "Fièrement propulsé par "
+
+#: functions.php:874
+msgid "Subscribe to my RSS Feed"
+msgstr "Suivre mon flux RSS"
+
+#: functions.php:873
+msgid "Follow me on Pinterest"
+msgstr "Suivez-moi sur Pinterest"
+
+#: functions.php:872
+msgid "Connect with me on Flickr"
+msgstr "Connectons-nous sur Flickr"
+
+#: functions.php:869
+msgid "Follow me on Instagram"
+msgstr "Suivez-moi sur Instagram"
+
+#: functions.php:867
+msgid "Subscribe to me on YouTube"
+msgstr "Suivez ma chaîne Youtube"
+
+#: functions.php:866
+msgid "Follow me on Foursquare"
+msgstr "Suivez-moi sur Foursquare"
+
+#: functions.php:863
+msgid "Fork me on Bitbucket"
+msgstr "Forkez-moi sur Bitbucket"
+
+#: functions.php:862
+msgid "Fork me on GitHub"
+msgstr "Forkez-moi sur GitHub"
+
+#: functions.php:859
+msgid "Follow me on Tumblr"
+msgstr "Suivez-moi sur Tumblr"
+
+#: functions.php:858
+msgid "Follow me on Dribbble"
+msgstr "Suivez-moi sur Dribbble"
+
+#: functions.php:856
+msgid "Follow me on SlideShare"
+msgstr "Suivez-moi sur SlideShare"
+
+#: functions.php:855
+msgid "Connect with me on LinkedIn"
+msgstr "Ajoutez-moi à vos contacts LinkedIn"
+
+#: functions.php:854
+msgid "Connect with me on Google+"
+msgstr "Ajoutez-moi à vos cercles Google+"
+
+#: functions.php:853
+msgid "Friend me on Facebook"
+msgstr "Suivez-moi sur Facebook"
+
+#: functions.php:852
+msgid "Follow me on Twitter"
+msgstr "Suivez-moi sur Twitter"
+
+#: functions.php:787
+msgid "Continue reading"
+msgstr "Lire la suite…"
+
+#. Translators: 1: Date 2: Author 3: Categories 4: Comments
+#: functions.php:702
+msgid "<div class=\"header-meta\">%1$s%2$s<span class=\"post-categories\">%3$s</span>%4$s</div>"
+msgstr "<div class=\"header-meta\">%1$s%2$s<span class=\"post-categories\">%3$s</span>%4$s</div>"
+
+#: functions.php:698
+msgid "No Comments"
+msgstr "Pas de commentaire"
+
+#: functions.php:698
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "%1$s commentaire"
+msgstr[1] "%1$s commentaires"
+
+#: functions.php:692 functions.php:728
+msgid " "
+msgstr " "
+
+#. Translators: 1: Date link 2: Author link 3: Categories 4: No. of Comments
+#: functions.php:687
+msgid "View all posts by %s"
+msgstr "Afficher tous les articles par %s"
+
+#: functions.php:623
+msgctxt "noun"
+msgid "Comment"
+msgstr "Commentaire"
+
+#: functions.php:602
+msgid "Website"
+msgstr "Site web"
+
+#: functions.php:600
+msgid "Email"
+msgstr "Options de messagerie"
+
+#: functions.php:598
+msgid "Name"
+msgstr "Nom"
+
+#: functions.php:573
+msgid "Reply <span>&darr;</span>"
+msgstr "Répondre <span>&darr;</span>"
+
+#: functions.php:564
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération."
+
+#. Translators: 1: date, 2: time
+#: functions.php:558
+msgid "%1$s at %2$s"
+msgstr "%1$s à %2$s"
+
+#. Translators: 1: Icon 2: Permalink 3: Post date and time 4: Publish date in
+#. ISO format 5: Post date
+#: functions.php:555 functions.php:679
+msgid "%1$s @ %2$s"
+msgstr "%1$s @ %2$s"
+
+#: functions.php:552
+msgid "Post author"
+msgstr "Auteur de l&rsquo;article"
+
+#: functions.php:537
+msgid "(Edit)"
+msgstr "(Modifier)"
+
+#: functions.php:537
+msgid "Pingback:"
+msgstr "Ping&nbsp;:"
+
+#: functions.php:1164
+msgid "Next <i class=\"fa fa-angle-right\"></i>"
+msgstr "Suivant <i class=\"fa fa-angle-right\"></i>"
+
+#: functions.php:1162
+msgid "<i class=\"fa fa-angle-left\"></i> Previous"
+msgstr "<i class=\"fa fa-angle-left\"></i> Précédent"
+
+#: functions.php:482
+msgid "Post navigation"
+msgstr "Navigation de l'article"
+
+#: functions.php:451
+msgid "Please add a comment"
+msgstr "S'il vous plaît, ajoutez un commentaire"
+
+#: functions.php:450
+msgid "Please enter a valid email address"
+msgstr "Veuillez entrer une adresse mail valide s'il vous plaît"
+
+#: functions.php:449
+msgid "Please enter your name"
+msgstr "Entrez votre nom s'il vous plaît"
+
+#: functions.php:363
+msgid "Fourth Footer Widget Area"
+msgstr "Quatrième zone d'affichage des widgets du pied de page"
+
+#: functions.php:353
+msgid "Third Footer Widget Area"
+msgstr "Troisième zone d'affichage des widgets du pied de page"
+
+#: functions.php:343
+msgid "Second Footer Widget Area"
+msgstr "Deuxième zone d'affichage des widgets du pied de page"
+
+#: functions.php:335 functions.php:345 functions.php:355 functions.php:365
+msgid "Appears in the footer sidebar"
+msgstr "Apparaît dans le pied de page de la barre latérale"
+
+#: functions.php:333
+msgid "First Footer Widget Area"
+msgstr "Première zone des widgets du pied de page"
+
+#: functions.php:323
+msgid "Fourth Front Page Widget Area"
+msgstr "Quatrième zone de widget pour la Front Page"
+
+#: functions.php:313
+msgid "Third Front Page Widget Area"
+msgstr "Troisième zone de widget pour la Front Page"
+
+#: functions.php:303
+msgid "Second Front Page Widget Area"
+msgstr "Seconde zone de la Page d’accueil"
+
+#: functions.php:295 functions.php:305 functions.php:315 functions.php:325
+msgid "Appears when using the optional Front Page template with a page set as Static Front Page"
+msgstr "Apparaît lorsque vous utilisez le modèle facultatif Page d&rsquo;Accueil avec une page configurée en Page d&rsquo;Accueil Statique."
+
+#: functions.php:293
+msgid "First Front Page Widget Area"
+msgstr "Première zone de la page d’accueil"
+
+#: functions.php:283
+msgid "Second Front Page Banner Widget"
+msgstr "Seconde zone de widget pour la bannière de la Front Page"
+
+#: functions.php:275 functions.php:285
+msgid "Appears in the banner area on the Front Page"
+msgstr "Apparaît dans la zone de la bannière sur la Front Page"
+
+#: functions.php:273
+msgid "First Front Page Banner Widget"
+msgstr "Premier widget de la bannière de la Front Page"
+
+#: functions.php:265
+msgid "Appears in the sidebar on pages only"
+msgstr "Apparaît seulement dans la barre latérale des pages"
+
+#: functions.php:263
+msgid "Page Sidebar"
+msgstr "Barre latérale de la page"
+
+#: functions.php:255
+msgid "Appears in the sidebar on single posts only"
+msgstr "Apparaît seulement dans la barre latérale des articles uniques"
+
+#: functions.php:253
+msgid "Single Post Sidebar"
+msgstr "Barre latérale de vos articles"
+
+#: functions.php:245
+msgid "Appears in the sidebar on the blog and archive pages only"
+msgstr "Apparaît seulement dans la barre latérale du blog et des pages d'archives"
+
+#: functions.php:243
+msgid "Blog Sidebar"
+msgstr "Barre latérale du blog"
+
+#: functions.php:235
+msgid "Appears in the sidebar on posts and pages except the optional Front Page template, which has its own widgets"
+msgstr "Apparaît dans la barre latérale des articles et des pages sauf sur le modèle optionnel de Front Page, qui a ses propres widgets"
+
+#: functions.php:233
+msgid "Main Sidebar"
+msgstr "Colonne principale"
+
+#. translators: If there are characters in your language that are not supported
+#. by Arvo, translate this to 'off'. Do not translate into your own language.
+#: functions.php:174
+msgctxt "Arvo font: on or off"
+msgid "on"
+msgstr "on"
+
+#. translators: To add an additional PT Sans character subset specific to your
+#. language, translate this to 'greek', 'cyrillic' or 'vietnamese'. Do not
+#. translate into your own language.
+#: functions.php:166
+msgctxt "PT Sans font: add new subset (cyrillic)"
+msgid "no-subset"
+msgstr "no-subset"
+
+#. translators: If there are characters in your language that are not supported
+#. by PT Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:161
+msgctxt "PT Sans font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:55
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+#: content.php:13
+msgid "Featured post"
+msgstr "Article mis en avant"
+
+#: content-postarchives.php:28
+msgid "Archives by Month"
+msgstr "Archives par mois"
+
+#: content-postarchives.php:19
+msgid "Archives by Category"
+msgstr "Archives par Catégorie"
+
+#: content-audio.php:17 content-gallery.php:17 content-video.php:17
+#: content.php:22 content.php:27
+msgid "Permalink to "
+msgstr "Permalien vers %s"
+
+#: content-aside.php:32 content-audio.php:42 content-chat.php:32
+#: content-gallery.php:40 content-image.php:32 content-link.php:32
+#: content-page.php:29 content-postarchives.php:36 content-quote.php:35
+#: content-status.php:31 content-video.php:40 content.php:65 functions.php:569
+msgid "Edit"
+msgstr "Modifier"
+
+#: content-aside.php:20 content-audio.php:29 content-builderboxed.php:14
+#: content-chat.php:20 content-gallery.php:28 content-image.php:20
+#: content-link.php:20 content-page.php:22 content-postarchives.php:33
+#: content-quote.php:23 content-status.php:19 content-video.php:28
+#: content.php:52
+msgid "Pages:"
+msgstr "Pages :"
+
+#: content-aside.php:15 content-audio.php:24 content-chat.php:15
+#: content-gallery.php:23 content-image.php:15 content-link.php:15
+#: content-quote.php:16 content-status.php:15 content-video.php:23
+#: content.php:42 content.php:46 functions.php:787
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continue la lecture <span class=\"meta-nav\">&rarr;</span>"
+
+#: comments.php:49
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés"
+
+#: comments.php:43
+msgid "Newer Comments &rarr;"
+msgstr "Commentaires plus récents &rarr;"
+
+#: comments.php:42
+msgid "&larr; Older Comments"
+msgstr "&larr; Commentaires Pr&eacute;c&eacute;dents"
+
+#: comments.php:41
+msgid "Comment navigation"
+msgstr "Navigation des commentaires"
+
+#: comments.php:30
+msgid "One response on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s responses on &ldquo;%2$s&rdquo;"
+msgstr[0] "Une réponse sur &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s réponses à &ldquo;%2$s&rdquo;"
+
+#: category.php:18
+msgid "Category Archives: %s"
+msgstr "Archives pour la catégorie %s"
+
+#: author.php:24
+msgid "Author Archives: %s"
+msgstr "Archives de l’auteur : %s"
+
+#: author-bio.php:33
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Afficher tous les articles de %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: author-bio.php:15
+msgid "About %s"
+msgstr "A propos de %s"
+
+#: 404.php:20 no-results.php:32
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Il semble que ce que vous cherchez est introuvable. Essayez avec une recherche."
+
+#: 404.php:17
+msgid "Uh Oh! This is somewhat embarrassing!"
+msgstr "Hum ! Comme tout ceci est embarrassant..."
+
+#. Author URI of the plugin/theme
+msgid "http://maddisondesigns.com/"
+msgstr "http://maddisondesigns.com/"
+
+#. Author of the plugin/theme
+msgid "Anthony Hortin"
+msgstr "Anthony Hortin"
+
+#. Theme URI of the plugin/theme
+msgid "http://quarktheme.com"
+msgstr "http://quarktheme.com"

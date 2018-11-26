@@ -1,0 +1,298 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  line-height: 1.8;
+  font-family: 'Handlee', cursive;
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+header {
+  background-image: url("../image/head.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center, bottom;
+  text-align: center;
+}
+header h1 {
+  color: #5ee3a7;
+}
+header p {
+  color: #5ee3a7;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: #e5b36beb;
+  margin: 0;
+}
+
+ul a {
+  text-decoration: none;
+  transition: all 300ms;
+}
+ul a:hover {
+  color: yellow;
+}
+
+main {
+  text-align: center;
+  height: 100px;
+  background-image: url("../image/bien.png");
+
+  background-position: center;
+  background-size: contain;
+  height: 2000px;
+}
+.mangasNom {
+  color: red;
+  font-weight: bold;
+}
+
+main h2 {
+  margin: 0;
+  color: #5ee3a7;
+
+}
+.main {
+  background-color: #d7921bd6;
+  width: 90%;
+  margin: auto;
+  color: #5ee3a7;
+}
+.main img {
+  width: 50%;
+}
+.liste {
+  display: initial;
+  padding: 0px;
+}
+.liste .resume {
+  color: #00ffc6;
+}
+.liste .title-resume {
+  color: blue;
+}
+
+
+
+/* CSS FORMULAIRE */
+/*
+ * Styles des formulaires
+ */
+
+
+.generic-form .error-message h3
+{
+    /* structure */
+    margin-top: 0;
+
+    /* presentation */
+    color: #FF3300;
+}
+.generic-form .error-message h3 em
+{
+    color: red;
+    font-style: normal;
+}
+.generic-form .no-left-label
+{
+    margin-left: 180px; /* pour aligner avec le label */
+}
+.generic-form input[type="password"],
+.generic-form input[type="text"],
+.generic-form select,
+.generic-form textarea
+{
+    /* structure */
+    padding: 2px;
+
+    /* presentation */
+    border: 1px solid grey;
+    transition: background-color 0.33s;
+}
+.generic-form input[type="password"],
+.generic-form input[type="text"],
+.generic-form textarea
+{
+    width: 20em;
+}
+.generic-form input[type="password"]:focus,
+.generic-form input[type="text"]:focus,
+.generic-form select:focus,
+.generic-form textarea:focus
+{
+    background-color: #D0FFFF;
+}
+.generic-form > ul:last-child
+{
+    margin-top: 2em;
+}
+.generic-form ul li
+{
+    margin: 1em 0;
+}
+.generic-form ul li label
+{
+    display: inline-block;
+}
+.generic-form ul li label.textarea
+{
+    vertical-align: top;
+}
+.generic-form ul li label:not(.no-width)
+{
+    width: 175px;
+}
+.generic-form ul li label.full-width
+{
+    width: 100%;
+}
+.generic-form input.money,
+.generic-form input.zip-code
+{
+    width: 55px; /* 5 caractères */
+}
+.generic-form input.quantity
+{
+    width: 35px; /* 3 caractères */
+}
+.generic-form input.phone
+{
+    width: 100px; /* 10 caractères */
+}
+.generic-form textarea
+{
+    resize: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS BUTTON*/
+
+.nav-button {
+  /* display: flex;
+  justify-content: space-around; */
+  text-align: initial;
+  margin-top: 50px;
+  margin: 10px;
+}
+.nav-button .rigth {
+  float: right;
+}
+.button
+{
+    /* structure */
+    display: inline-block;
+    padding: 0.5em 1em;
+
+    /* presentation */
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    line-height: 1.5em;
+    text-decoration: none;
+    transition: background-color 0.25s, box-shadow 0.25s;
+}
+.button[disabled],
+.button[disabled]:hover
+{
+    background-color: silver;
+    box-shadow: none;
+    color: grey;
+}
+.button + .button
+{
+    margin-left: 1em;
+}
+
+.button-cancel
+{
+    background-color: #FF3300;
+    color: white;
+}
+.button-cancel:hover
+{
+    background-color: #FF6633;
+    box-shadow: 0 0 4px 2px rgba(255, 102, 51, 0.5);
+    color: white;
+}
+
+.button-primary
+{
+    background-color: #99336c;
+    color: white;
+}
+.button-primary:hover
+{
+    background-color: #66CC99;
+    box-shadow: 0 0 4px 2px rgba(102, 204, 153, 0.5);
+    color: white;
+}
+
+.button:active
+{
+    box-shadow: none;

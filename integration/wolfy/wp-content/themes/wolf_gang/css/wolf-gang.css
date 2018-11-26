@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+
+}
+@font-face {
+  font-family: "Bodega";
+  src: url(../fonts/BodegaSans_Black.ttf);
+}
+
+body {
+  line-height: 1.7;
+  font-family: "Bodega";
+  background-image: url(../img/bg_body.svg);
+  background-color: #4a5456;
+  padding: 20px;
+  margin: auto;
+}
+.container {
+  /* width: 90%; */
+  margin: auto;
+
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+.header-main {
+  background: linear-gradient(160deg, #fff 50%, #2d3131 50%);
+  text-align: center;
+}
+.header-main div {
+    width: 100%
+}
+
+.nav-main li {
+  list-style: none;
+  padding: 15px;
+}
+.nav-main li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+.nav-main ul {
+
+  text-align: right;
+}
+
+.logo {
+    
+}

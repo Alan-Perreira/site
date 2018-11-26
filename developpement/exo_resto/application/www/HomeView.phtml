@@ -1,0 +1,20 @@
+<!-- Message de notification -->
+
+<!-- Code HTML à écrire -->
+
+
+<!-- Liste des aliments -->
+<table class="generic-table meal-list">
+    <caption>Carte du restaurant</caption>
+    <tbody>
+      <?php foreach ($meals as $key => $value):?>
+        <tr>
+          <td><img src="<?= $wwwUrl ?>/images/meals/<?= $value['Photo']?>" alt="<?= $value['Name']?>"></td>
+            <td><strong><?=$value['Name']?></strong>
+            <p><?=$value['Description']?></p></td>
+            <td class="number"><strong><?= number_format($value['SalePrice'], 2) ?> €</strong></td>
+        <?php endforeach; ?>
+
+        </tr>
+    </tbody>
+</table>

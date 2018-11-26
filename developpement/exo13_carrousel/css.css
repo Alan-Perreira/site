@@ -1,0 +1,38 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #cfcf6f6b;
+}
+h1 {
+  color: firebrick;
+  margin-left: 20%;
+}
+.toolbar {
+  text-align: center;
+  margin: 50px 0;
+}
+
+#toolbar-toggle {
+  text-decoration: none;
+  color: limegreen;
+  margin-left: 20%;
+}
+
+#toolbar-toggle:hover {
+  text-shadow: 1px 1px 1px black;
+}
+#slider {
+  text-align: center;
+}
+.slider {
+  border: 10px solid #fff;
+  transform: translateX(1.2);
+}
+
+.hide {
+  display: none;
+}
+
+image {
+  width: 100%;
+  height: auto;
+}

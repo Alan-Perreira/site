@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Exo svg PHP</title>
+    <link rel="stylesheet" href="css.css">
+  </head>
+  <style>
+    svg {
+      border: 2px solid blue;
+    }
+  </style>
+  <body>
+    <h1>SVG PHP</h1>
+    <svg height="600px" width="800px">
+      <?php foreach($results as $result){ ?>
+      	<?= $result ?>
+       <?php } ?>
+    </svg>
+  </body>
+</html>

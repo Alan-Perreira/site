@@ -1,0 +1,40 @@
+<?php
+
+namespace ADRIJ\ProjetBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Useravis
+ *
+ * @ORM\Table(name="userAvis")
+ * @ORM\Entity
+ */
+class Useravis
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="Id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $id;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="user_Id", type="integer", nullable=false)
+     */
+    private $userId;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="avis", type="text", length=65535, nullable=false)
+     */
+    private $avis;
+
+
+}
+

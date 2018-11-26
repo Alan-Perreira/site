@@ -1,0 +1,11 @@
+<?php
+
+
+
+
+
+
+
+
+include 'index.phtml';
+ ?>

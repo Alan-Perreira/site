@@ -1,0 +1,3 @@
+bon_commande:
+    resource: "@BonCommandeBundle/Resources/config/routing.xml"
+    prefix:   /
